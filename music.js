@@ -67,7 +67,50 @@ const app = {
           path: "song2.mp3",
           image:
             "https://i1.sndcdn.com/artworks-FYlZeEdyC6FDDiYs-H8KP0A-t500x500.jpg" 
+        },
+        {
+            name: "Sau Lưng Anh Có Ai Kìa",
+            singer: "Thầm Bảo Triêu x Nguyễn Phúc Thiện",
+            path: "song10.mp3",
+            image:
+              "http://giaitriexpress.com/wp-content/uploads/2022/04/QMG_1475-Edit.jpg" 
+        },
+        {
+            name: "Đừng Quên Tên Anh",
+            singer: "Hoa Vinh",
+            path: "song11.mp3",
+            image:
+              "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/cover/e/2/7/1/e271782467a84390a22cb9a28301b0e9.jpg" 
+        },
+        {
+            name: "Chúng Ta Của Hiện Tại",
+            singer: "Sơn Tùng M-TP",
+            path: "song12.mp3",
+            image:
+              "https://i.vietgiaitri.com/2020/12/19/he-lo-thoi-luong-mv-chung-ta-cua-hien-tai-son-tung-m-tp-dong-loat-bi-fan-to-ki-bo-e2f-5455668.jpg" 
+        },
+        {
+            name: "Some",
+            singer: "소유(SoYou) X 정기고(JunggiGo)",
+            path: "song13.mp3",
+            image:
+              "https://i1.sndcdn.com/artworks-000380080785-1k3hob-t500x500.jpg" 
+        },
+        {
+            name: "Một Mình Có Buồn Không",
+            singer: "Thiều Bảo Trâm, Lou Hoàng",
+            path: "song14.mp3",
+            image:
+              "https://i.ytimg.com/vi/sx6AymaJRGs/maxresdefault.jpg?v=5f8ed675" 
+        },
+        {
+            name: "Âm Thầm Bên Em",
+            singer: "Sơn Tùng M-TP",
+            path: "song15.mp3",
+            image:
+              "https://i1.sndcdn.com/artworks-000125406918-vc8ej9-t500x500.jpg" 
         }
+        
     ],
     render: function(){
         const htmls = this.songs.map((song,index)=>
