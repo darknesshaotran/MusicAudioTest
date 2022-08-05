@@ -16,7 +16,7 @@ const repeatBTN = $('.btn-repeat');
 const song = $('.song');
 
 const app = {
-    currentIndex : 5,
+    currentIndex : 0,
     isPlaying : false,
     songs: [
         {
